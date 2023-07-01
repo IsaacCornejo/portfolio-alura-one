@@ -1,0 +1,90 @@
+.section__sobre__mi .container {
+  margin: 0 auto;
+  width: 95%;
+}
+
+.sobre__mi__imagen__personal {
+  margin: 1rem 0 1rem 0;
+  width: 8rem;
+  height: 8rem;
+  background-image: url(/assets/img/imagen-personal.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.presentacion__sobre__mi {
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.descripcion__sobre__mi {
+  font-size: 1.2rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.menu__sobre__mi {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item__sobre__mi > a {
+  color: #141b41;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.titulo__presentacion {
+  color: #141b41;
+}
+
+@media screen and (min-width: 0) {
+  .section__sobre__mi {
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section__sobre__mi {
+    margin-top: 3rem;
+  }
+  .section__sobre__mi .container {
+    display: flex;
+  }
+
+  .sobre__mi__imagen__personal {
+    order: 1;
+    margin-left: 3rem;
+  }
+
+  .sobre__mi__container {
+    order: 0;
+    width: 70%;
+  }
+
+  .item__sobre__mi > a {
+    font-size: 1.2rem;
+  }
+
+  .sobre__mi__imagen__personal {
+    width: 10rem;
+    height: 10rem;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .sobre__mi__imagen__personal {
+    margin: 0 auto;
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .section__sobre__mi .container {
+    align-items: center;
+  }
+
+  .presentacion__sobre__mi {
+    font-size: 3rem;
+  }
+}

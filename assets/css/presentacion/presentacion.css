@@ -1,0 +1,35 @@
+.section__presentacion {
+  background-color: #eaf2fd;
+  margin-top: 1rem;
+  padding: 1rem 0 1rem 0;
+}
+
+.section__presentacion > .container {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.imagen__presentacion {
+  width: 30%;
+}
+
+@media screen and (min-width: 0) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+  .titulo__presentacion {
+    font-size: 2rem;
+  }
+
+  .section__presentacion > .container {
+    margin: 0;
+    width: 50%;
+    margin-left: 3rem;
+  }
+}
