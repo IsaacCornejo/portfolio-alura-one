@@ -7,7 +7,7 @@
   margin: 1rem 0 1rem 0;
   width: 8rem;
   height: 8rem;
-  background-image: url(./assets/img/imagen-personal.jpg);
+  background-image: url(./../../img/imagen-personal.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 50%;
