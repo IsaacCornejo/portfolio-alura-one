@@ -63,14 +63,12 @@
 
 .input__asunto {
   padding: 1rem 0 1rem 0.3rem;
-  color: gray;
   font-size: 1rem;
 }
 
 .input__textarea {
   width: 100%;
   padding: 0.5rem 0 0 0.3rem;
-  color: gray;
   font-size: 1rem;
   caret-color: #2a7be4b9;
   border: none;
